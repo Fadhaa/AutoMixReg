@@ -1,0 +1,18 @@
+Package: REGsimu
+Type: Package
+Title: This package to simulate data and apply lm model
+Version: 0.1.0
+Author: Fadhaa Ali
+Maintainer: The package maintainer <alifadhaa16@gmail.com>
+Description: This package is to apply lm model
+    to input data and find the estimators values.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,9 @@
+#' AutoMixReg: Automatic Mixture of Linear Regressions in R
+#'
+#' This package provides tools for generating synthetic regression mixtures, fitting mixture of linear regressions using the EM algorithm, and selecting the best number of components via BIC.
+#'
+#' @docType package
+#' @name AutoMixReg
+#' @importFrom stats rnorm sd dnorm
+#' @keywords package
+NULL

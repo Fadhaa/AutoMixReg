@@ -1,0 +1,26 @@
+Package: AutoMixReg
+Type: Package
+Title: Automatic Mixture of Linear Regressions with EM and BIC Selection
+Version: 0.1.0
+Authors@R: 
+    person(given = "Fadhaa", 
+           family = "Ali", 
+           role = c("aut", "cre"), 
+           email = "fadhaa.ali@globalstatsol.com")
+Description: 
+  AutoMixReg provides tools for generating synthetic data and fitting 
+  mixture models of linear regression using the Expectation-Maximization 
+  algorithm. It includes automatic model selection using the Bayesian Information 
+  Criterion (BIC), making it ideal for exploratory regression modeling 
+  with heterogeneous subpopulations.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown
+Depends: R (>= 3.6.0)
+Imports: stats
+BugReports: https://github.com/your_github_username/AutoMixReg/issues
+URL: https://github.com/your_github_username/AutoMixReg

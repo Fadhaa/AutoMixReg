@@ -1,0 +1,26 @@
+{
+    "id": "BEA68870",
+    "path": "A:/Rpack/AutoMixReg/R/fit_mixture_regression.R",
+    "project_path": "R/fit_mixture_regression.R",
+    "type": "r_source",
+    "hash": "156185407",
+    "contents": "",
+    "dirty": false,
+    "created": 1751701756205.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,117",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1751711255,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1751711255874,
+    "read_only": false,
+    "read_only_alternatives": []
+}

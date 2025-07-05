@@ -1,0 +1,36 @@
+---
+title: "Introduction to AutoMixReg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\\VignetteIndexEntry{Introduction to AutoMixReg}
+  %\\VignetteEngine{knitr::rmarkdown}
+  %\\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+This vignette demonstrates how to use the **AutoMixReg** package for fitting mixture regression models.
+
+```{r setup, include=FALSE}
+library(AutoMixReg)
+
+custom_betas <- list(
+  c(0.5, 1.5, 2, 3),
+  c(1, 2, 3, 4),
+  c(2, 3, 4, 6)
+)
+
+df <- generate_mixture_data(
+  n_samples = 1000,
+  n_features = 3,
+  betas = custom_betas,
+  cluster_probs = c(0.4, 0.3, 0.3),
+  noise_std = 1,
+  seed = 42
+)
+
+head(df)
+
+run_mixture_pipeline(df)
+```
+
