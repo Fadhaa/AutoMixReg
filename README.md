@@ -1,7 +1,7 @@
 
 # AutoMixReg
 
-**AutoMixReg** is an R package for simulating and fitting **Mixture of Linear Regressions** using the **EM algorithm**, and automatically selecting the best number of components using the Bayesian Information Criterion (BIC). It is useful for unsupervised regression modeling and model-based clustering in regression settings.
+**AutoMixReg** is an R package for simulating and fitting **Mixture of Linear Regressions** using the **EM algorithm**, and automatically selecting the best number of components using the Bayesian Information Criterion (BIC). It is useful for unsupervised regression modeling and model-based clustering in regression settings....
 
 ---
 
