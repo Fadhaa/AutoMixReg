@@ -7,7 +7,7 @@ vignette: >
   %\\VignetteEncoding{UTF-8}
 ---
 
-# Introduction
+# Introduction.
 
 This vignette demonstrates how to use the **AutoMixReg** package for fitting mixture regression models.
 
