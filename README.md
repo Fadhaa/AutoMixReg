@@ -26,7 +26,7 @@ df <- generate_mixture_data(
 )
 
 head(df)
----
+```
 
 ### 2. Fit a Mixture Regression Model (EM Algorithm)
 ```r
@@ -40,19 +40,19 @@ model <- fit_mixture_regression(X, y, n_components = 3)
 model$weights
 model$betas
 model$sigmas
----
+```
 
 ### 3. Automatically Select Best k Using BIC
 
 ```r
 bic_result <- select_best_k_bic(X, y, k_max = 6)
 bic_result$best_k
----
+```
 
 ### 4. One-Line Run Pipeline
 ```r
 run_mixture_pipeline(df)
----
+```
 
 
 
