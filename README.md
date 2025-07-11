@@ -28,7 +28,7 @@ df <- generate_mixture_data(
 head(df)
 ---
 
-## 2. Fit a Mixture Regression Model (EM Algorithm)
+### 2. Fit a Mixture Regression Model (EM Algorithm)
 ```r
 feature_cols <- setdiff(names(df), c("y", "cluster"))
 X <- cbind(1, as.matrix(df[, feature_cols]))
@@ -42,14 +42,14 @@ model$betas
 model$sigmas
 ---
 
-## 3. Automatically Select Best k Using BIC
+### 3. Automatically Select Best k Using BIC
 
 ```r
 bic_result <- select_best_k_bic(X, y, k_max = 6)
 bic_result$best_k
 ---
 
-## 4. One-Line Run Pipeline
+### 4. One-Line Run Pipeline
 ```r
 run_mixture_pipeline(df)
 ---
