@@ -1,8 +1,26 @@
 
 # AutoMixReg
 
-**AutoMixReg** is an R package for simulating and fitting **Mixture of Linear Regressions** using the **EM algorithm**, and automatically selecting the best number of components using the Bayesian Information Criterion (BIC). It is useful for unsupervised regression modeling and model-based clustering in regression settings....
+**AutoMixReg** is an R package for simulating and fitting **Mixture of Linear Regressions** using the **Expectation-Maximization (EM) algorithm**. It includes functionality for:
 
+- Generating synthetic data from known mixture models
+- Fitting mixture regression models using EM
+- Automatically selecting the optimal number of components using **Bayesian Information Criterion (BIC)**
+- Running a full model selection and fitting pipeline in a single line
+
+This package is useful for **unsupervised regression modeling**, **model-based clustering**, and **statistical learning** in high-dimensional settings.
+
+---
+
+## 📦 Installation
+
+```r
+# Install devtools if not already installed
+install.packages("devtools")
+
+# Install AutoMixReg from GitHub
+devtools::install_github("Fadhaa/AutoMixReg")
+```
 ## Example Usage
 
 ### 1. Simulate Data from a Mixture of Linear Regressions
